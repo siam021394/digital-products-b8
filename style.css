@@ -65,3 +65,49 @@
     border: none;
     border-radius: 5px;
 }
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+.about-title {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box {
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 4px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.icon {
+    width: 100px;
+}
+
+.box-btn {
+    background-color: grey;
+    margin-top: 10px;
+}
+
+.box-title {
+    padding: 10px;
+}
+
+.box-description {
+    padding: 5px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
